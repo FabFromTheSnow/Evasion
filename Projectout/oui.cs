@@ -177,3 +177,4 @@ class Program
         }
     }
 }
+//C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /target:winexe /out:oui.exe /reference:"C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Net.Http.dll" /reference:"C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Outlook\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Outlook.dll" .\test.cs
