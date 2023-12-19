@@ -153,7 +153,7 @@ class Program
 
     static async Task SendDataOnline(string email)
     {
-        string endpointUrl = "http://localhost:8000/";
+        string endpointUrl = "http://localhost/";
         try
         {
             using (var httpClient = new HttpClient())
