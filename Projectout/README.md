@@ -1,2 +1,2 @@
-C# listener, send the victim outlook email address to a server, then wait for the user to preview a pdf through outlook containing base 64 encoded reverse shell dll in any previewed pdf. Once the pdf is preview, it's stored in a temp folder listener can then extract base64, decode it, and run the reverse shell dll
+C# listener, send the victim outlook email address to a server, then wait for the user to preview a pdf through outlook containing base 64 encoded reverse shell dll in any previewed pdf. Once the pdf is previewed, it's stored in a temp folder (by outlook) listener can then extract base64, decode it, and run the reverse shell dll
 - Also include fake warning text to block ai detection (tried on virustotal, reducing positive by one lol)
