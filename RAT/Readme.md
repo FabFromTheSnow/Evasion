@@ -1,4 +1,6 @@
 #this code is a test of copilot ai, everything should be working thoug.
+# Option 3 can be used to deploy a vulnerable software, lets call that BYOS
+# For example libreoffice 6.1.0.1 can be transfered executed with a payload to trigger this https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/exploit/multi/fileformat/libreoffice_macro_exec.md
 # Remote administration tool
 
 This project contains two Go programs that enable secure communication between a server and a client using TLS and AES-GCM encryption. The server can send commands, executables to run in memory, or compressed folders to the client. The client receives these messages, decrypts any transmitted files, and processes them accordingly.
